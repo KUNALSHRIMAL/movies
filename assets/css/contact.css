@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(movie.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.contact-form{
+    width: 380px;
+    height:450px ;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 0 20px #ffac071a;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    color: white;
+    box-shadow: 0 0 20px 9px #ffac061a;
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    background: no-repeat;
+    border: 1px solid gray;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.contact-form form select{
+    background-color: black;
+    color: white;
+}
+.contact-form form select:hover{
+    background-color: white;
+    color: black;
+}

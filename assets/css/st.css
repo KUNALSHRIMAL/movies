@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century Gothic;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("movie.jpg");
+}
+
+header {
+  height: 10;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  margin: auto;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+}
+
+ul li .Home a {
+  background-color: #fff;
+  color: black;
+}
+
+.logo h1 {
+  float: left;
+  display: flex;
+  padding: 0 12px;
+  color: white;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h4 {
+    font-size: 90%;
+  }
+  .carousel-caption a {
+    font-size: 70%;
+  }
+}
+
+.carousel-inner {
+  height: 60vh;
+}
+.carousel-item img {
+  height: 60vh;
+  width: 100%;
+}
+.button_s {
+  padding: 1px 10px;
+  margin: 127px auto;
+  position: absolute;
+  width: 57%;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.btn_s {
+  border: 1px solid #fff;
+  padding: 15px 10px;
+  margin: auto;
+  margin-left: 4px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn_s:hover {
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 2px;
+  top: 20px;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: black;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-header {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  color: black;
+  white-space: nowrap;
+}
+
+.dropdown-item-text {
+  display: block;
+  padding: 0.25rem 1.5rem;
+  color: black;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  list-style: none;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
