@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Upload Movie request</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+<html>
+
+<body>
+    <div class="contact-form">
+        <h1>Upload Movie request</h1>
+        <br>
+        <form action="contact.php" method="POST">
+        <div class="txtb">
+            <input type="text" name="name" value="" placeholder="Enter Movie Name">
+        </div>
+        <select name="sel">
+            <option value="bollywood">bollywood</option>
+            <option value="Hollywood">Hollywood</option>
+            <option value="south">south</option>
+        </select>
+        <div class="txtb">
+            <input type="text" name="mtype" value="" placeholder="Enter Movie type">
+        </div>
+        <div class="txtb">
+            <textarea  name="about" placeholder="Enter about Movie"></textarea>
+        <br>
+         <button type="submit" class="btn">Send</button>
+    </form>
+    </div>
+</body>
+
+</html>

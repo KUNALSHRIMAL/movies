@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Log in and Registration form </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-Box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+
+            </div>
+            <div class="social-icons">
+                <a href="www.facebook.com"> <img src="./assets/images/fbb.png"></a>
+                <a href="www.twiter.com"><img src="./assets/images/tw.png"></a>
+                <a href="www.google.com"><img src="./assets/images/go.jpeg"></a>
+            </div>
+            <form id="login" class="input-group" action="login.php" method="POST">
+                <input type="text" name="username" class="input-field" placeholder="Enter your username">
+                <input type="password" name="password" class="input-field" placeholder="Enter your password">
+                <a><button type="submit" class="submit-btn">Log in</button></a>
+            </form>
+            <form id="Register" class="input-group" action="register.php" method="POST">
+                <input type="text" name="username" class="input-field" placeholder="Enter your username">
+                <input type="email" name="email" class="input-field" placeholder="Enter your email id">
+                <input type="password" name="password" class="input-field" placeholder="Enter your password">
+                <input type="checkbox" name="check" class="chech-box"><span>I agree to terms and conditions</span>
+                <a><button type="submit" class="submit-btn">Register</button></a>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("Register");
+        var z = document.getElementById("btn");
+
+
+        function Register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+
+</html>
+<!-- INSERT INTO `login` (`s.no`, `username`, `password`, `date`) VALUES ('1', 'kun', 'kunal105', current_timestamp()); -->
