@@ -7,7 +7,7 @@ and send the upload movie request which is not uploaded yet Also contact for get
 
 ## STEPS For Front End
 
-### ->Go to link https://kunalshrimal.github.io/round2/
+### ->Go to link https://kunalshrimal.github.io/movies/
 
 ## STEPS For Backend
 
